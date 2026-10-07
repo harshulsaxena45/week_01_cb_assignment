@@ -33,19 +33,6 @@ This repository contains solutions for Questions 1–11 covering:
 | Q10 | Query optimization |
 | Q11 | Customer retention streaks |
 
-## Q10 Optimization
-
-Original total logical reads: 645
-
-Optimized total logical reads: 494
-
-CPU time:
-141 ms → 94 ms
-
-The query was optimized by replacing the non-sargable
-`YEAR(order_date)` filter with a date range, restructuring the
-correlated subquery, and adding an index on `order_date, customer_id`.
-
 ## Tools
 
 - SQL Server
