@@ -1,6 +1,6 @@
 # Voltkart SQL Challenge
 
-SQL solutions for the Voltkart Data Engineering Bootcamp assignment.
+SQL solutions for the Codebasics DE Bootcamp assignment.
 
 ## Overview
 
